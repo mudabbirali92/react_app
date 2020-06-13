@@ -10,12 +10,13 @@
 9) Now after consulting point number (3) you will need to create a project with create-react-app package.
 10) you can do with the help of following command:
 [create-react-app myfolder] --> remeber create-react-app wont allow you to capitalizae your project name aka the directory.
-11) You need to execute another command within same directory before pushing [surge token] and copy it to clipboard for later work (make sure you must have installed surge on your local machine and you can find a little demo of intsalling and creating account with surge under [link]https://surge.sh).
+11) You need to execute another command within same directory before pushing [surge token] and copy it to clipboard for later work (make sure you must have installed surge on your local machine and you can find a little demo of intsalling and creating account with surge under link https://surge.sh).
 11) When you done with that after some process time, you will have to push that directory to main repository that you hva ecreated recently by a traditinal way i.e. git init , git add . , git commit and push bla bla.....
 12) When you are done whith that stuff, next task is to create workflow for your github repository where you have pushed your recently created react setup.
 13) you can find contents in main.yml under workflow directory of this repostory.
-14) 
-
+14) Make sure you have to put your own key in main.yml file in under --token ${{secrets.YOUR_TOKEN_NAME}}
+15) commit changes and run your provided domain under surge section in main.yml
+# You are done now
 
 
 
