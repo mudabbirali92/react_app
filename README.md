@@ -1,4 +1,4 @@
-## Steps invloved while uploading react app on github
+# Steps invloved while uploading react app on github
 1) First you will create a repository without read.md (cuz it will be automatically provided by react app)
 2) You dont need to clone that repository yet just keep on working with local machine.
 3) then you need to intall packages for react in some folder (later we will be pushing this folder to remote repository).
@@ -16,7 +16,7 @@
 13) you can find contents in main.yml under workflow directory of this repostory.
 14) Make sure you have to put your own key in main.yml file in under --token ${{secrets.YOUR_TOKEN_NAME}}
 15) commit changes and run your provided domain under surge section in main.yml
-# To follw same tutorial through video link is provided under:
+## To follow same tutorial through video! Link is provided under:
 https://www.youtube.com/watch?v=G25BM3nPk3s
 
 
