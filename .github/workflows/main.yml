@@ -40,6 +40,12 @@ jobs:
       with:
           cmd: build # will run `yarn build` command
       
+      # Now testing yarn if its working
+    - name: testing Yarn      
+      uses: borales/actions-yarn@v2.0.0
+      with:
+          cmd: test # will run `yarn test` command
+      
       # Then we will install the surge for creating host for our website we created
     - name: Installing surge
       run: npm install --global surge
