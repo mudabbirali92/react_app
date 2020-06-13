@@ -16,7 +16,9 @@
 13) you can find contents in main.yml under workflow directory of this repostory.
 14) Make sure you have to put your own key in main.yml file in under --token ${{secrets.YOUR_TOKEN_NAME}}
 15) commit changes and run your provided domain under surge section in main.yml
-# You are done now
+# To follw same tutorial through video link is provided under:
+https://www.youtube.com/watch?v=G25BM3nPk3s
+
 
 
 
