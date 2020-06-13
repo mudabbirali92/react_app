@@ -33,8 +33,14 @@ jobs:
       uses: borales/actions-yarn@v2.0.0
       with:
          cmd: install # will run `yarn install` command
-
-# Then we will install the surge for creating host for our website we created
+    
+    # Now building yarn
+    - name: building yarn
+      uses: borales/actions-yarn@v2.0.0
+      with:
+          cmd: build # will run `yarn build` command
+      
+      # Then we will install the surge for creating host for our website we created
     - name: Installing surge
       run: npm install --global surge
     
