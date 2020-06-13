@@ -45,6 +45,12 @@ jobs:
       uses: borales/actions-yarn@v2.0.0
       with:
           cmd: test # will run `yarn test` command
+          
+        # Now testing yarn if its working
+    - name: testing Yarn      
+      uses: borales/actions-yarn@v2.0.0
+      with:
+          cmd: run # will run `yarn test` command
       
       # Then we will install the surge for creating host for our website we created
     - name: Installing surge
@@ -52,7 +58,7 @@ jobs:
     
     # Now we need after installing surge we need to run that
     - name: Running a surge
-      run: surge ./ Gorillazreact.surge.sh --token ${{secrets.SURGE_TOKEN}}   
+      run: surge ./build Gorillazreact.surge.sh --token ${{secrets.SURGE_TOKEN}}   
 
 
 
