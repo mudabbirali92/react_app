@@ -19,6 +19,9 @@
 ## To follow same tutorial through video! Link is provided under:
 https://www.youtube.com/watch?v=G25BM3nPk3s
 
+## Complete react tutorials 
+http://react-guide-backup.surge.sh
+
 
 
 
