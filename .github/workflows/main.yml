@@ -27,7 +27,10 @@ jobs:
       uses: actions/setup-node@v2-beta #this would be tha actual command that will run on your server (ubuntu-github)
       with:
         node-version : 12
-
+        
+      #npm installing create react app
+    - name: Installing create react app
+      run: npm intsall -g create-react-app
 
 # Then we will install the surge for creating host for our website we created
     - name: Installing surge
