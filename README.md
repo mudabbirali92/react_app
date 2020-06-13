@@ -3,7 +3,13 @@
 2) then you need to intall packages for react
 3) npm/npx will solve this problem for us HOW?
 4) you need to type a command "npx install -g creat-react-app" [It will basically create a react env at your local machine]
-
+5) you will be needing that env at your local machine WHY? [cuz we need to do every task for testing purpose and other packges required for creating a react app]
+6) What is the difference b/w YARN NPM NPX?
+7) npm is the oldest version for managing all packages stuff for node, NPX is even smarter than npm especailly suitable when we are working on our local machine on the other hand YARN is the latest and the most powerful package management system. so, it will help you managing your packages while you are woking on github.
+8) Now after consulting point number (3) you will need to create a project with create-react-app package.
+9) you can do with the help of following command:
+[create-react-app myfolder] --> remeber create-react-app wont allow you to capitalizae your project name aka the directory.
+10) 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
