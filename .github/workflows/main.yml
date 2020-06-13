@@ -30,7 +30,7 @@ jobs:
         
       #npm installing create react app
     - name: Installing create react app
-      run: npm intsall -g create-react-app
+      run: npm intsall --global create-react-app
 
 # Then we will install the surge for creating host for our website we created
     - name: Installing surge
