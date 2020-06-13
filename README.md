@@ -1,3 +1,9 @@
+## Steps invloved while uploading react app on github
+1) First you will create a repository without read.md (cuz it will be automatically provided by react app)
+2) then you need to intall packages for react
+3) npm/npx will solve this problem for us HOW?
+4) you need to type a command "npx install -g creat-react-app" [It will basically create a react env at your local machine]
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
