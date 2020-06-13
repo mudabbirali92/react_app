@@ -28,9 +28,11 @@ jobs:
       with:
         node-version : 12
         
-      #npm installing create react app
-    - name: Installing create react app
-      run: npm intsall --global create-react-app
+      #npm installing yarn for create react app
+    - name: Intsalling yarn 
+      uses: borales/actions-yarn@v2.0.0
+      with:
+         cmd: install # will run `yarn install` command
 
 # Then we will install the surge for creating host for our website we created
     - name: Installing surge
